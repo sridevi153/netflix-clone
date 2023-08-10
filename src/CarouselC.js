@@ -4,7 +4,7 @@ import requests from "./requests";
 import { Carousel } from "react-bootstrap";
 import "./CarouselC.css";
 
-function CarouselC({}) {
+function CarouselC() {
   const [movies, setMovies] = useState([]);
   const base_URL = "https://image.tmdb.org/t/p/original/";
   const fetchUrl = requests.fetchNetflixOriginals;
