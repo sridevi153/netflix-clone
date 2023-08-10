@@ -1,0 +1,21 @@
+
+.row__posters {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-around;
+    align-items: start;
+    max-height: 500px;
+}
+.card {
+    margin: 10px; 
+    width: 150px; 
+    height: auto; 
+    transition: transform 0.2s; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+.row {
+    margin-bottom: 20px; 
+}
