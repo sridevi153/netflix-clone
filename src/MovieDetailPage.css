@@ -48,3 +48,14 @@
     transition: all 0.3s;
   }
 
+  @media (max-width: 600px) {
+    .banner__title {
+      font-size: 1.2rem;
+    }
+  
+    .banner__description {
+      font-size: 0.6rem;
+      width: 200px;
+    }
+  }
+  

@@ -80,3 +80,18 @@
     transition: all 0.3s;
   }
 
+  @media (max-width: 600px) {
+    .banner__title {
+      font-size: 1.4rem;
+    }
+  
+    .banner__description {
+      font-size: 0.6rem;
+      width: 250px;
+    }
+  
+    .carousel-item img {
+      object-fit: cover;
+    }
+  }
+  

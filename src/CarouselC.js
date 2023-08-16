@@ -18,8 +18,8 @@ function CarouselC() {
     fetchData();
   }, [fetchUrl]);
 
-  function truncate(str, n){
-    return str?.length > n ? str.substr(0, n-1) + "..." : str;
+  function truncate(str, n) {
+    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
 
   return (
@@ -32,12 +32,16 @@ function CarouselC() {
               src={`${base_URL}${item.poster_path}`}
             />
             <div className="banner__contents">
-              <h1 className="banner__title">{item?.title || item?.name || item?.original_name}</h1>
+              <h1 className="banner__title">
+                {item?.title || item?.name || item?.original_name}
+              </h1>
               <div className="banner__buttons">
                 <button className="banner__button">Play</button>
                 <button className="banner__button">My List</button>
               </div>
-              <h1 className="banner__description">{truncate(item?.overview, 200)}</h1>
+              <h1 className="banner__description">
+                {truncate(item?.overview, 200)}
+              </h1>
             </div>
           </Carousel.Item>
         ))}

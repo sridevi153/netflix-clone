@@ -53,6 +53,19 @@ button{
     width: 185px;
     margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+    .login-input {
+      font-size: 16px; /* to prevent mobile browsers from zooming in */
+      padding: 10px; /* Increase padding for better touch */
+    }
+    
+    .login-button {
+      padding: 12px 20px; /* larger touch target */
+    }
+  }
+  
+
 /* 
 .login-container {
     width: 300px;

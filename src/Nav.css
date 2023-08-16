@@ -6,3 +6,15 @@
     height: 35px;
     margin-left: 1030px;
 }
+@media (max-width: 600px) {
+    .navbar {
+      padding: 0 10px;
+    }
+    
+    .imageIcon {
+      width: 25px;
+      height: 25px;
+      margin-left: 5px;
+    }
+  }
+  
