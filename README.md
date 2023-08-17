@@ -1,8 +1,8 @@
-#Netflix Clone:
+**Netflix Clone:**
 
 A replica of the streaming giant, Netflix, built using React.
 
-##Features:
+**Features:**
 Dynamic fetching of movies from TMDB (The Movie Database).
 
 Display movies in rows categorized by genres.
@@ -16,7 +16,7 @@ Responsive design, optimized for both desktop and mobile views.
 User authentication with a custom login page.
 
 
-##Technologies Used:
+**Technologies Used:**
 
 ReactJS: Frontend framework.
 
@@ -26,7 +26,7 @@ Axios: To make API requests.
 
 TMDB API: To fetch movie data.
 
-##Installation & Setup:
+**Installation & Setup:**
 
 1.Clone the repo:
 
@@ -46,7 +46,7 @@ TMDB API: To fetch movie data.
 
 5.Open your browser and navigate to http://localhost:3000.
 
-##Usage
+**Usage:**
 
 1.On the landing page, you can see the login page where you need to enter a avalid email format for username and password.
 
@@ -66,13 +66,13 @@ TMDB API: To fetch movie data.
 
 9.On click of the Icon on left corner of Navbar application logs out.
 
-##Configuration:
+**Configuration:**
 
 Ensure you have NodeJS and NPM installed.
 
 Get your TMDB API key and add it to the project.
 
-##Contributing:
+**Contributing:**
 
 Pull requests are welcome. Please make sure to update tests as appropriate.
 
