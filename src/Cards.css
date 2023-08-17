@@ -21,21 +21,11 @@
 }
 
 @media (max-width: 600px) {
-  
-    .row__posters {
-      justify-content: center; /* center the cards if fewer in number */
-      align-items: center;
-      flex-direction: column; /* stack vertically */
-    }
-  
+
     .card {
-      margin: 10px 0;  /* vertical spacing, no horizontal spacing needed */
-      width: 90%;  /* take most of the screen width */
+      margin: 10px 0; 
+      width: 30%; 
       transition: transform 0.2s; 
-    }
-  
-    .card:hover {
-      transform: scale(1.02); /* subtle hover effect, not too exaggerated */
     }
   }
   

@@ -52,13 +52,12 @@
 
 // export default CarouselC;
 
-
 import React, { useEffect, useState } from "react";
 import axios from "./axios";
 import requests from "./requests";
 import { Carousel } from "react-bootstrap";
 import "./CarouselC.css";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function CarouselC() {
   const [movies, setMovies] = useState([]);
@@ -86,9 +85,14 @@ function CarouselC() {
 
   return (
     <div className="carouselContainer">
-      <Carousel controls={false} indicators={false} interval={1000}>
+      <Carousel
+        className="mov-contain custom-container"
+        controls={false}
+        indicators={false}
+        interval={1000}
+      >
         {movies.map((item) => (
-          <Carousel.Item key={item.id}>
+          <Carousel.Item className="carousel-item" key={item.id}>
             <img
               className="d-block w-100"
               src={`${base_URL}${item.poster_path}`}
@@ -98,7 +102,12 @@ function CarouselC() {
                 {item?.title || item?.name || item?.original_name}
               </h1>
               <div className="banner__buttons">
-                <button className="banner__button" onClick={() => handleClick(item.id)}>More</button>
+                <button
+                  className="banner__button"
+                  onClick={() => handleClick(item.id)}
+                >
+                  More
+                </button>
                 <button className="banner__button">My List</button>
               </div>
               <h1 className="banner__description">

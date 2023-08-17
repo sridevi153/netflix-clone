@@ -1,81 +1,94 @@
 
 .carouselContainer {
-    padding-bottom: 10px;
-    width: 100vw; 
-    height: 85vh;
-    display: block;
-    box-shadow: rgb(244, 240, 240);
-  }
-  
-  .carousel-item img {
-    height: calc(100vh - 90px); 
-    object-fit:fill; 
+  padding-bottom: 10px;
+  width: 100%; 
+  height: 90%;
+  box-shadow: rgb(244, 240, 240);
+}
+
+.carousel-item img {
+  height: 100vh;
+  background-image: cover; 
+  width: auto;
+  opacity: 0.8;
+}
+
+.banner__contents{
+  color: #fff;
+  margin-left: 40px;  
+  padding-top: 140px;
+  position: absolute;
+  top: 70px;
+}
+
+.banner__title{
+  font-size: 2rem;
+  padding-bottom: 0.3rem;
+  font-weight: 800;
+}
+
+.banner__description{
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+.banner__button{
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 800;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(161, 159, 159, 0.5);
+}
+
+.banner__button:hover{
+  color: #3c3c3c;
+  background-color: rgba(239, 237, 237, 0.5);
+  transition: all 0.3s;
+}
+
+
+@media (max-width: 600px) {
+  .carouselContainer{
+    height: 50%;
   }
 
-  /* .carousel-caption h3{
-    font-weight: 200;
-  } */
-  
-  /* .carousel-caption {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #fff;
-    font-weight: 200;
-    line-height: 1;
-  } */
-  /* .banner__contents{
-    margin-left: 30px;
-    padding-top: 140px;
-    height: 190px;
-    color: #fff;
+  .carousel-item img{
+    height: 50vh;
   }
-
-  .banner__title{
-    font-size: 3rem;
-    padding-bottom: 0.3rem;
-    font-weight: 800;
-  } */
   .banner__contents{
     color: #fff;
-    margin-left: 40px;  
-    padding-top: 140px;
-    position: absolute;
-    top: 70px;
+    margin-left: -10px;
+    width: 80%;
   }
-
   .banner__title{
     font-size: 2rem;
-    padding-bottom: 0.3rem;
-    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 200;
+    margin-left: -20px;
   }
-
-  .banner__description{
-    width: 45rem;
-    line-height: 1.3;
-    padding-top: 1rem;
-    font-size: 0.8rem;
-    max-width: 360px;
-    height: 80px;
-  }
-
   .banner__button{
-    color: #fff;
-    outline: none;
-    border: none;
-    font-weight: 800;
-    border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: rgba(161, 159, 159, 0.5);
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: -20px;
+    width: 40%;
   }
-
-  .banner__button:hover{
-    color: #3c3c3c;
-    background-color: rgba(239, 237, 237, 0.5);
-    transition: all 0.3s;
+  .banner__description{
+    width: 80%;
+    line-height: 1;
+    font-size: 0.8rem;
+    height: 80px;
+    margin-left: -20px;
   }
+}

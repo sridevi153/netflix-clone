@@ -1,20 +1,42 @@
-.navbar-nav a{
-    color: #fff;
-}
 .imageIcon{
     width: 35px;
     height: 35px;
-    margin-left: 1030px;
 }
-@media (max-width: 600px) {
-    .navbar {
-      padding: 0 10px;
-    }
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+
+  .homediv{
     
-    .imageIcon {
-      width: 25px;
-      height: 25px;
-      margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  }
+
+  div a{
+    padding: 5px;
+  }
+
+  .iconDiv{
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  }
+  
+  nav a{
+    padding: 5px;
+  }
+
+
+@media (max-width: 600px) {
+    .navbar-nav{
+      font-size: 10px;
+      display: flex;
+      flex-direction: row;
     }
   }
   

@@ -48,6 +48,12 @@
     transition: all 0.3s;
   }
 
+  .youtubeMovie{
+    position: absolute;
+    top:10vh;
+    width:100vw;
+   }  
+
   @media (max-width: 600px) {
     .banner__title {
       font-size: 1.2rem;
@@ -57,9 +63,12 @@
       font-size: 0.6rem;
       width: 200px;
     }
+    .youtubeMovie{
+      top:7vh;
+     } 
+     .image{
+      width: 100vw;
+      height: 50vh;
   }
-  .youtubeMovie{
-    position: absolute;
-    top:10vh;
-    width:100vw;
-   }  
+  }
+  

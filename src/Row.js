@@ -39,7 +39,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     }
   };
   return (
-    <div className="row">
+    <div className="row" onClick={() => {setTrailerUrl("");}}>
       <h2>{title}</h2>
       <div className="row__post">
         {movies.map((movie) => (
