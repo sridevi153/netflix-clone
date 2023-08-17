@@ -45,7 +45,7 @@ TMDB API: To fetch movie data.
 ###npm start
 
 5.Open your browser and navigate to http://localhost:3000.
-:
+
 ##Usage
 
 1.On the landing page, you can see the login page where you need to enter a avalid email format for username and password.
