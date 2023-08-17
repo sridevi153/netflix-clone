@@ -5,9 +5,9 @@ import Cards from './Cards';
 
 function MyList() {
   return (
-    <div>
+    <div style={{marginRight:'30px'}}>
         <Nav />
-      <Cards fetchUrl={requests.fetchNetflixOriginals}/>
+      <Cards fetchUrl={requests.fetchTopRated}/>
     </div>
   );
 }
