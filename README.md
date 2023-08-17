@@ -3,6 +3,7 @@
 A replica of the streaming giant, Netflix, built using React.
 
 **Features:**
+
 Dynamic fetching of movies from TMDB (The Movie Database).
 
 Display movies in rows categorized by genres.
